@@ -1,0 +1,136 @@
+a {
+  text-decoration: none;
+}
+header {
+  margin-top: 30px;
+}
+#sample {
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #878787;
+}
+.icon {
+  text-align: left;
+}
+.root {
+  display: inline-block;
+}
+footer {
+  margin-left: 70px;
+}
+.App {
+  display: inline-block;
+  text-align: left;
+  color: rgb(213, 205, 205);
+  padding: 0;
+  margin: 0;
+}
+.navigation-item {
+  text-align: left;
+  display: inline-block;
+  margin-left: 8px;
+  list-style: none;
+}
+li .navigation-item {
+  color: red;
+}
+ul {
+  list-style: none;
+  display: inline-block;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+.App-link {
+  color: #61dafb;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container {
+  margin-top: 35px;
+  border-style: ridge;
+  border-width: thin;
+  margin-bottom: 5px;
+}
+.currentTemp:hover {
+  transition: ease-in-out 200ms;
+}
+.currentTemp {
+  transition: 0.3s;
+}
+.newTemperature {
+  color: #ff7043;
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 70px;
+  font-weight: 400;
+  display: inline;
+}
+.degree {
+  color: #ffa726;
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  display: inline;
+}
+#changeCity {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #5a6275;
+}
+h4 {
+  font-family: sans-serif;
+  font-size: 23px;
+  font-weight: thin;
+  color: #5a6275;
+}
+.day,
+.temp {
+  text-align: center;
+}
+#description {
+  text-transform: capitalize;
+}
+#center1 {
+  border-style: groove;
+  border-color: #e5e7eb;
+  border-radius: 3px;
+  border-width: 1;
+  margin-top: 0px;
+  padding: 40px;
+}
+#submit-button {
+  border-style: groove;
+  background: #0b5ed7;
+  color: white;
+  border-radius: 3px;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: thin;
+}
+footer a {
+  text-decoration: none;
+}
