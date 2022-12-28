@@ -49,7 +49,6 @@ export default function App() {
             <img src={weather.icon} alt={weather.description} />
           </li>
         </ul>
-        <p>Edit and save to reload.</p>
       </div>
     );
   } else {
